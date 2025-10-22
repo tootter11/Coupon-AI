@@ -1,0 +1,54 @@
+/* Sidebar Styling */
+#ai-coupon-sidebar {
+    position: fixed;
+    top: 50px;
+    right: 0;
+    width: 250px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 99999; /* Ensure it overlays everything */
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    transition: transform 0.3s ease-in-out;
+}
+
+#ai-sidebar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+#ai-sidebar-header h3 {
+    margin: 0;
+    font-size: 16px;
+    color: #333;
+}
+
+#ai-sidebar-close {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color: #888;
+}
+
+/* Results Section */
+#ai-sidebar-results p {
+    font-size: 14px;
+    color: #2a6496;
+    margin: 5px 0;
+}
+
+/* Ad Space Styling (Monetization & UI) */
+#ai-sidebar-ads {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #ffeccf;
+    border-left: 3px solid orange;
+    font-size: 12px;
+    color: #666;
+}
